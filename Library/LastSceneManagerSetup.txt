@@ -1,5 +1,5 @@
 sceneSetups:
-- path: Assets/SpringPicnic/Scenes/BreakTime.unity
+- path: Assets/SpringPicnic/Scenes/Prologue.unity
   isLoaded: 1
   isActive: 1
   isSubScene: 0
