@@ -190,9 +190,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: 'NameText
-
-'
+  m_Text: NameText
 --- !u!222 &297577511
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -483,7 +481,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   nameText: "\uC1A1\uC815\uBBFC"
-  nameColor: {r: 1, g: 1, b: 1, a: 1}
+  nameColor: {r: 0, g: 0, b: 0, a: 1}
   soundEffect: {fileID: 0}
   portraits:
   - {fileID: 21300000, guid: e590e6b9434bf214f8aee49a4011c2f2, type: 3}
@@ -900,6 +898,56 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 5
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &710103224
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 710103225}
+  - component: {fileID: 710103226}
+  m_Layer: 0
+  m_Name: Kangwoo
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &710103225
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 710103224}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 1184856249}
+  m_RootOrder: 8
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &710103226
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 710103224}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 25fb867d2049d41f597aefdd6b19f598, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  nameText: "\uC774\uAC15\uC6B0"
+  nameColor: {r: 0, g: 0, b: 0, a: 1}
+  soundEffect: {fileID: 0}
+  portraits: []
+  portraitsFace: 0
+  setSayDialog: {fileID: 0}
+  description: 
 --- !u!1 &737606053
 GameObject:
   m_ObjectHideFlags: 0
@@ -1037,8 +1085,9 @@ MonoBehaviour:
     width: 0
     height: 0
   selectedBlocks:
-  - {fileID: 737606078}
-  selectedCommands: []
+  - {fileID: 737606061}
+  selectedCommands:
+  - {fileID: 737606087}
   variables: []
   description: 
   stepPause: 0
@@ -1185,7 +1234,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   nodeRect:
     serializedVersion: 2
-    x: 515.65015
+    x: 514.5138
     y: 95.86093
     width: 129.0909
     height: 40
@@ -1969,7 +2018,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 13
   indentLevel: 0
-  storyText: "\uC0AC\uB791\uC5D0 \uB300\uD55C \uBAA8\uB4E0 \uAC83.'\r\n"
+  storyText: "'\uC0AC\uB791\uC5D0 \uB300\uD55C \uBAA8\uB4E0 \uAC83.'\r\n"
   description: 
   character: {fileID: 949886849}
   portrait: {fileID: 21300000, guid: 284f929ed65bd9948be15f5ea6e19eb4, type: 3}
@@ -2103,7 +2152,7 @@ MonoBehaviour:
   stage: {fileID: 0}
   character: {fileID: 949886849}
   replacedCharacter: {fileID: 949886849}
-  portrait: {fileID: 21300000, guid: 284f929ed65bd9948be15f5ea6e19eb4, type: 3}
+  portrait: {fileID: 21300000, guid: 1a93673eaab4ab247b42667b48574b0e, type: 3}
   offset: 0
   fromPosition: {fileID: 0}
   toPosition: {fileID: 874839658}
@@ -2133,7 +2182,7 @@ MonoBehaviour:
   stage: {fileID: 0}
   character: {fileID: 949886849}
   replacedCharacter: {fileID: 0}
-  portrait: {fileID: 21300000, guid: 284f929ed65bd9948be15f5ea6e19eb4, type: 3}
+  portrait: {fileID: 21300000, guid: 1a93673eaab4ab247b42667b48574b0e, type: 3}
   offset: 0
   fromPosition: {fileID: 0}
   toPosition: {fileID: 874839658}
@@ -2251,7 +2300,7 @@ MonoBehaviour:
   stage: {fileID: 0}
   character: {fileID: 1767919285}
   replacedCharacter: {fileID: 949886849}
-  portrait: {fileID: 21300000, guid: 1a93673eaab4ab247b42667b48574b0e, type: 3}
+  portrait: {fileID: 21300000, guid: 284f929ed65bd9948be15f5ea6e19eb4, type: 3}
   offset: 0
   fromPosition: {fileID: 0}
   toPosition: {fileID: 0}
@@ -2281,7 +2330,7 @@ MonoBehaviour:
   stage: {fileID: 0}
   character: {fileID: 949886849}
   replacedCharacter: {fileID: 1767919285}
-  portrait: {fileID: 0}
+  portrait: {fileID: 21300000, guid: 1a93673eaab4ab247b42667b48574b0e, type: 3}
   offset: 0
   fromPosition: {fileID: 0}
   toPosition: {fileID: 0}
@@ -2311,7 +2360,7 @@ MonoBehaviour:
   stage: {fileID: 0}
   character: {fileID: 1767919285}
   replacedCharacter: {fileID: 2058386648}
-  portrait: {fileID: 0}
+  portrait: {fileID: 21300000, guid: 284f929ed65bd9948be15f5ea6e19eb4, type: 3}
   offset: 0
   fromPosition: {fileID: 0}
   toPosition: {fileID: 0}
@@ -2491,7 +2540,7 @@ MonoBehaviour:
     \uBD04 \uC18C\uD48D \uD1A0\uB860\uC744 \uC2DC\uC791\uD558\uACA0\uC2B5\uB2C8\uB2E4!
     \uC800\uB294 \uC624\uB298 \uC0AC\uD68C\uB97C \uB9E1\uC740 \uBC31\uACBD\uBBFC\uC785\uB2C8\uB2E4.\r\n"
   description: 
-  character: {fileID: 0}
+  character: {fileID: 949886849}
   portrait: {fileID: 0}
   voiceOverClip: {fileID: 0}
   showAlways: 1
@@ -2860,7 +2909,7 @@ MonoBehaviour:
   stage: {fileID: 0}
   character: {fileID: 2058386648}
   replacedCharacter: {fileID: 949886849}
-  portrait: {fileID: 0}
+  portrait: {fileID: 21300000, guid: b94569e3e7682ca4b962fbecd833b45d, type: 3}
   offset: 0
   fromPosition: {fileID: 0}
   toPosition: {fileID: 0}
@@ -2937,7 +2986,7 @@ MonoBehaviour:
   stage: {fileID: 0}
   character: {fileID: 949886849}
   replacedCharacter: {fileID: 0}
-  portrait: {fileID: 21300000, guid: 284f929ed65bd9948be15f5ea6e19eb4, type: 3}
+  portrait: {fileID: 21300000, guid: 1a93673eaab4ab247b42667b48574b0e, type: 3}
   offset: 0
   fromPosition: {fileID: 0}
   toPosition: {fileID: 0}
@@ -2967,7 +3016,7 @@ MonoBehaviour:
   stage: {fileID: 0}
   character: {fileID: 949886849}
   replacedCharacter: {fileID: 0}
-  portrait: {fileID: 21300000, guid: 284f929ed65bd9948be15f5ea6e19eb4, type: 3}
+  portrait: {fileID: 21300000, guid: 1a93673eaab4ab247b42667b48574b0e, type: 3}
   offset: 0
   fromPosition: {fileID: 0}
   toPosition: {fileID: 0}
@@ -3490,7 +3539,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   nameText: "\uC624\uC724\uC11D"
-  nameColor: {r: 1, g: 1, b: 1, a: 1}
+  nameColor: {r: 0, g: 0, b: 0, a: 1}
   soundEffect: {fileID: 0}
   portraits:
   - {fileID: 21300000, guid: 08669afae55b8ff43ab722122c8c1091, type: 3}
@@ -3804,11 +3853,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 25fb867d2049d41f597aefdd6b19f598, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  nameText: Kyungmin
-  nameColor: {r: 1, g: 1, b: 1, a: 1}
+  nameText: "\uBC31\uACBD\uBBFC"
+  nameColor: {r: 0, g: 0, b: 0, a: 1}
   soundEffect: {fileID: 0}
   portraits:
-  - {fileID: 21300000, guid: 284f929ed65bd9948be15f5ea6e19eb4, type: 3}
+  - {fileID: 21300000, guid: 1a93673eaab4ab247b42667b48574b0e, type: 3}
   portraitsFace: 2
   setSayDialog: {fileID: 0}
   description: 
@@ -4002,6 +4051,7 @@ Transform:
   - {fileID: 818352658}
   - {fileID: 1419354801}
   - {fileID: 2074586031}
+  - {fileID: 710103225}
   m_Father: {fileID: 0}
   m_RootOrder: 3
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -4049,7 +4099,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   nameText: "\uBC15\uC18C\uC5F0"
-  nameColor: {r: 1, g: 1, b: 1, a: 1}
+  nameColor: {r: 0, g: 0, b: 0, a: 1}
   soundEffect: {fileID: 0}
   portraits:
   - {fileID: 21300000, guid: 187a40f3ca2f75043ac8d641fbee6abb, type: 3}
@@ -4105,7 +4155,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   nameText: "\uC591\uB3D9\uBC94"
-  nameColor: {r: 1, g: 1, b: 1, a: 1}
+  nameColor: {r: 0, g: 0, b: 0, a: 1}
   soundEffect: {fileID: 0}
   portraits:
   - {fileID: 21300000, guid: 66cafdf0db0daac45802295b4182d176, type: 3}
@@ -4403,7 +4453,7 @@ GameObject:
   - component: {fileID: 1767919284}
   - component: {fileID: 1767919285}
   m_Layer: 0
-  m_Name: Hyunjoo
+  m_Name: Hyunjoon
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -4435,11 +4485,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 25fb867d2049d41f597aefdd6b19f598, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  nameText: "\uC784\uD604\uC8FC"
-  nameColor: {r: 1, g: 1, b: 1, a: 1}
+  nameText: "\uC784\uD604\uC900"
+  nameColor: {r: 0, g: 0, b: 0, a: 1}
   soundEffect: {fileID: 0}
   portraits:
-  - {fileID: 21300000, guid: 1a93673eaab4ab247b42667b48574b0e, type: 3}
+  - {fileID: 21300000, guid: 284f929ed65bd9948be15f5ea6e19eb4, type: 3}
   portraitsFace: 0
   setSayDialog: {fileID: 0}
   description: 
@@ -4608,7 +4658,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   nameText: "\uD64D\uB0A8\uC8FC"
-  nameColor: {r: 1, g: 1, b: 1, a: 1}
+  nameColor: {r: 0, g: 0, b: 0, a: 1}
   soundEffect: {fileID: 0}
   portraits:
   - {fileID: 21300000, guid: b94569e3e7682ca4b962fbecd833b45d, type: 3}
@@ -4658,8 +4708,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 25fb867d2049d41f597aefdd6b19f598, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  nameText: Yurim
-  nameColor: {r: 1, g: 1, b: 1, a: 1}
+  nameText: "\uC815\uC720\uB9BC"
+  nameColor: {r: 0, g: 0, b: 0, a: 1}
   soundEffect: {fileID: 0}
   portraits:
   - {fileID: 21300000, guid: 0e8376ec200202c43be5f5b9b38d5883, type: 3}

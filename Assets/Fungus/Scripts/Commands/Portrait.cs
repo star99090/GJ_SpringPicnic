@@ -41,7 +41,7 @@ namespace Fungus
         [SerializeField] protected bool useDefaultSettings = true;
 
         [Tooltip("Fade Duration")]
-        [SerializeField] protected float fadeDuration = 0.5f;
+        [SerializeField] protected float fadeDuration = 50f;
 
         [Tooltip("Movement Duration")]
         [SerializeField] protected float moveDuration = 1f;
