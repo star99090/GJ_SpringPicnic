@@ -630,11 +630,11 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   version: 1
-  scrollPos: {x: -433.70944, y: 28.658154}
+  scrollPos: {x: -327.65372, y: 53.582176}
   variablesScrollPos: {x: 0, y: 0}
   variablesExpanded: 1
   blockViewHeight: 200
-  zoom: 0.93999994
+  zoom: 0.90999997
   scrollViewRect:
     serializedVersion: 2
     x: 0
@@ -643,8 +643,7 @@ MonoBehaviour:
     height: 0
   selectedBlocks:
   - {fileID: 737606147}
-  selectedCommands:
-  - {fileID: 737606148}
+  selectedCommands: []
   variables:
   - {fileID: 737606129}
   - {fileID: 737606125}
@@ -720,7 +719,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 377.82352
     y: 43.17647
-    width: 77.23404
+    width: 78.13187
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -805,7 +804,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 511.98218
     y: 95.86093
-    width: 131.70213
+    width: 133.51648
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -1317,7 +1316,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 707.8508
     y: 143.10628
-    width: 97.65958
+    width: 99.230774
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -1749,7 +1748,7 @@ MonoBehaviour:
   stage: {fileID: 0}
   character: {fileID: 949886849}
   replacedCharacter: {fileID: 0}
-  portrait: {fileID: 21300000, guid: 1a93673eaab4ab247b42667b48574b0e, type: 3}
+  portrait: {fileID: 21300000, guid: 1293fcfbb16a9e34a8c417516911c3c1, type: 3}
   offset: 0
   fromPosition: {fileID: 0}
   toPosition: {fileID: 874839658}
@@ -2553,7 +2552,7 @@ MonoBehaviour:
   stage: {fileID: 0}
   character: {fileID: 949886849}
   replacedCharacter: {fileID: 0}
-  portrait: {fileID: 21300000, guid: 1a93673eaab4ab247b42667b48574b0e, type: 3}
+  portrait: {fileID: 21300000, guid: 1293fcfbb16a9e34a8c417516911c3c1, type: 3}
   offset: 0
   fromPosition: {fileID: 0}
   toPosition: {fileID: 0}
@@ -3683,7 +3682,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 855.6167
     y: 158.1657
-    width: 108.723404
+    width: 109.78023
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -4628,5 +4627,11 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 8869429558406548663, guid: b313b01c3c047904abaae93eb660cdc9,
+        type: 3}
+      propertyPath: portraits.Array.data[0]
+      value: 
+      objectReference: {fileID: 21300000, guid: 1293fcfbb16a9e34a8c417516911c3c1,
+        type: 3}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: b313b01c3c047904abaae93eb660cdc9, type: 3}
