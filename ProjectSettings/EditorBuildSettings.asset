@@ -5,10 +5,16 @@ EditorBuildSettings:
   m_ObjectHideFlags: 0
   serializedVersion: 2
   m_Scenes:
-  - enabled: 1
-    path: Assets/SpringPicnic/Scenes/Prologue.unity
-    guid: 2cda990e2423bbf4892e6590ba056729
+  - enabled: 0
+    path: 
+    guid: 00000000000000000000000000000000
   - enabled: 1
     path: Assets/SpringPicnic/Scenes/Stage1.unity
     guid: 4c0e0cfa202b20e44802a2dc0df330c3
+  - enabled: 1
+    path: Assets/SpringPicnic/Scenes/Prologue.unity
+    guid: 9618e9b562cf3414d994ee0c1d432224
+  - enabled: 1
+    path: Assets/SpringPicnic/Scenes/Stage2.unity
+    guid: 5b7891a2883a4dc4bb05bc9b3ff1c141
   m_configObjects: {}
