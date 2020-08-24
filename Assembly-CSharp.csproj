@@ -64,6 +64,7 @@
   <ItemGroup>
     <Compile Include="Assets\SpringPicnic\Scripts\ButtonEvent.cs" />
     <Compile Include="Assets\SpringPicnic\Scripts\EndingCredit.cs" />
+    <Compile Include="Assets\SpringPicnic\Scripts\GameManager.cs" />
     <Compile Include="Assets\SpringPicnic\Scripts\Title.cs" />
     <Reference Include="UnityEngine">
       <HintPath>C:/Program Files/Unity/Hub/Editor/2019.4.4f1/Editor/Data/Managed/UnityEngine/UnityEngine.dll</HintPath>

@@ -4,12 +4,11 @@ using UnityEngine;
 
 public class EndingCredit : MonoBehaviour
 {
-    Vector3 move = new Vector3(0f, 0.015f, 0f);
-    float timer;
+    Vector3 move = new Vector3(0f, 0.025f, 0f);
 
     void Update()
     {
-        if (this.transform.position.y != -20f)
+        if (this.transform.position.y >= -30f)
         {
             this.transform.position -= move;
         }
