@@ -918,8 +918,10 @@ MonoBehaviour:
     y: 0
     width: 0
     height: 0
-  selectedBlocks: []
-  selectedCommands: []
+  selectedBlocks:
+  - {fileID: 601250885}
+  selectedCommands:
+  - {fileID: 601250925}
   variables:
   - {fileID: 601251067}
   description: 
@@ -1004,7 +1006,7 @@ MonoBehaviour:
   nodeRect:
     serializedVersion: 2
     x: 461.0309
-    y: 128.18686
+    y: 124.73859
     width: 127.241325
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
@@ -2171,7 +2173,7 @@ MonoBehaviour:
   waitForClick: 1
   stopVoiceover: 1
   waitForVO: 0
-  setSayDialog: {fileID: 0}
+  setSayDialog: {fileID: 729938455}
 --- !u!114 &601250926
 MonoBehaviour:
   m_ObjectHideFlags: 2
@@ -7944,6 +7946,18 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 9040b61819ad0894aa973733a2ce7b92, type: 3}
+--- !u!114 &729938455 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 7928794982688990061, guid: 9040b61819ad0894aa973733a2ce7b92,
+    type: 3}
+  m_PrefabInstance: {fileID: 729938454}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3a0bbe22c246e4c78ad8e9816cbae9d5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &734513909
 GameObject:
   m_ObjectHideFlags: 0

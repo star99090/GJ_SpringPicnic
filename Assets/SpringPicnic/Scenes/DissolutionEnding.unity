@@ -1235,6 +1235,18 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 9040b61819ad0894aa973733a2ce7b92, type: 3}
+--- !u!114 &1664583654 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 7928794982688990061, guid: 9040b61819ad0894aa973733a2ce7b92,
+    type: 3}
+  m_PrefabInstance: {fileID: 1664583653}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3a0bbe22c246e4c78ad8e9816cbae9d5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &1785307362
 GameObject:
   m_ObjectHideFlags: 0
@@ -1403,8 +1415,9 @@ MonoBehaviour:
     width: 0
     height: 0
   selectedBlocks:
-  - {fileID: 1785307377}
-  selectedCommands: []
+  - {fileID: 1785307366}
+  selectedCommands:
+  - {fileID: 1785307417}
   variables: []
   description: 
   stepPause: 0
@@ -2935,7 +2948,7 @@ MonoBehaviour:
   waitForClick: 1
   stopVoiceover: 1
   waitForVO: 0
-  setSayDialog: {fileID: 0}
+  setSayDialog: {fileID: 1664583654}
 --- !u!114 &1785307418
 MonoBehaviour:
   m_ObjectHideFlags: 2

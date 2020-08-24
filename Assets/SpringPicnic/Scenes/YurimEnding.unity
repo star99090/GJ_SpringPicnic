@@ -785,8 +785,7 @@ MonoBehaviour:
     y: 0
     width: 0
     height: 0
-  selectedBlocks:
-  - {fileID: 828970125}
+  selectedBlocks: []
   selectedCommands: []
   variables: []
   description: 
@@ -3585,7 +3584,7 @@ MonoBehaviour:
   waitForClick: 1
   stopVoiceover: 1
   waitForVO: 0
-  setSayDialog: {fileID: 0}
+  setSayDialog: {fileID: 2090255003}
 --- !u!114 &828970168
 MonoBehaviour:
   m_ObjectHideFlags: 2
@@ -3621,7 +3620,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   nodeRect:
     serializedVersion: 2
-    x: 302.88696
+    x: 301.4584
     y: 106.68084
     width: 128.8571
     height: 40
@@ -7377,6 +7376,18 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 9040b61819ad0894aa973733a2ce7b92, type: 3}
+--- !u!114 &2090255003 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 7928794982688990061, guid: 9040b61819ad0894aa973733a2ce7b92,
+    type: 3}
+  m_PrefabInstance: {fileID: 2090255002}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3a0bbe22c246e4c78ad8e9816cbae9d5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1001 &4379805997624731799
 PrefabInstance:
   m_ObjectHideFlags: 0
