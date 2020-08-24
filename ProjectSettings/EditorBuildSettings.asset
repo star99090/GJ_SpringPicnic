@@ -9,27 +9,33 @@ EditorBuildSettings:
     path: 
     guid: 00000000000000000000000000000000
   - enabled: 1
-    path: Assets/SpringPicnic/Scenes/Stage1.unity
-    guid: 4c0e0cfa202b20e44802a2dc0df330c3
+    path: Assets/SpringPicnic/Scenes/Title.unity
+    guid: 5439f9b63ee8f4b4285ccfe3d8532f0e
   - enabled: 1
     path: Assets/SpringPicnic/Scenes/Prologue.unity
-    guid: 9618e9b562cf3414d994ee0c1d432224
+    guid: 557764ff014d3ee4da3cf4f91587f289
+  - enabled: 1
+    path: Assets/SpringPicnic/Scenes/Stage1.unity
+    guid: 81b509a52745f004d94e00fe7a82b3be
   - enabled: 1
     path: Assets/SpringPicnic/Scenes/Stage2.unity
-    guid: 5b7891a2883a4dc4bb05bc9b3ff1c141
+    guid: 88674dbeef00fae449f372163ac8a61b
   - enabled: 1
     path: Assets/SpringPicnic/Scenes/BreakTime.unity
-    guid: 402ffb6cbab3b8f4da048129a12e34be
+    guid: 052924df2122c53499d4975cb0a6ad3d
   - enabled: 1
-    path: Assets/SpringPicnic/Scenes/Ending/DissolutionEnding.unity
+    path: Assets/SpringPicnic/Scenes/DissolutionEnding.unity
     guid: 386c594f43b302e41a8147a3cd853af1
   - enabled: 1
-    path: Assets/SpringPicnic/Scenes/Ending/NormalEnding.unity
+    path: Assets/SpringPicnic/Scenes/NormalEnding.unity
     guid: 961ca7132f3eab1498b84d48f0f8768c
   - enabled: 1
-    path: Assets/SpringPicnic/Scenes/Ending/SoyeonEnding.unity
+    path: Assets/SpringPicnic/Scenes/HiddenEnding.unity
     guid: 48963f81729d1ba4da6d57b291e47abb
   - enabled: 1
-    path: Assets/SpringPicnic/Scenes/Ending/YurimEnding.unity
+    path: Assets/SpringPicnic/Scenes/YurimEnding.unity
     guid: 292977f32d9c3f741a31697fd139d781
+  - enabled: 1
+    path: Assets/SpringPicnic/Scenes/EndingCredit.unity
+    guid: 1e47010142ab95b48bd74acca7658464
   m_configObjects: {}
