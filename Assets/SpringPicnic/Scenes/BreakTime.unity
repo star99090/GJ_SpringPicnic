@@ -1182,6 +1182,7 @@ GameObject:
   - component: {fileID: 1550200537}
   - component: {fileID: 1550200536}
   - component: {fileID: 1550200403}
+  - component: {fileID: 1550200545}
   m_Layer: 0
   m_Name: Flowchart
   m_TagString: Untagged
@@ -1202,11 +1203,11 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   version: 1
-  scrollPos: {x: -589.5703, y: -97.905914}
+  scrollPos: {x: 244.0636, y: -98.01266}
   variablesScrollPos: {x: 0, y: 0}
   variablesExpanded: 1
   blockViewHeight: 200
-  zoom: 0.7899997
+  zoom: 0.52
   scrollViewRect:
     serializedVersion: 2
     x: 0
@@ -1214,7 +1215,7 @@ MonoBehaviour:
     width: 0
     height: 0
   selectedBlocks:
-  - {fileID: 1550200371}
+  - {fileID: 1550200344}
   selectedCommands: []
   variables:
   - {fileID: 1550200357}
@@ -1264,7 +1265,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 647.25635
     y: -133.85907
-    width: 77.34178
+    width: 60
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -1855,7 +1856,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 604.53595
     y: 235.26215
-    width: 110.759514
+    width: 71.53847
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -2147,7 +2148,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 525.69366
     y: 229.03458
-    width: 110.759514
+    width: 71.53847
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -2522,7 +2523,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 434.34525
     y: 229.53139
-    width: 125.949394
+    width: 86.92308
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -2879,7 +2880,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 342.56647
     y: 230.00916
-    width: 122.911415
+    width: 83.84615
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -2898,6 +2899,7 @@ MonoBehaviour:
   - {fileID: 1550200465}
   - {fileID: 1550200289}
   - {fileID: 1550200292}
+  - {fileID: 1550200545}
   - {fileID: 1550200290}
   - {fileID: 1550200461}
   - {fileID: 1550200284}
@@ -3572,7 +3574,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 376.46414
     y: 77.74126
-    width: 125.949394
+    width: 86.92308
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -3607,7 +3609,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 866.339
     y: 78.91803
-    width: 125.949394
+    width: 86.92308
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -4349,7 +4351,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 556.2944
     y: 165.79501
-    width: 137.08864
+    width: 97.692314
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -4743,7 +4745,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 396.11896
     y: 166.91559
-    width: 106.70888
+    width: 66.92308
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -5066,7 +5068,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 250.62985
     y: 163.8097
-    width: 106.70888
+    width: 66.92308
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -5326,7 +5328,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 627.90845
     y: -61.37783
-    width: 111.77217
+    width: 74.61539
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -5644,7 +5646,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 832.57745
     y: 157.59198
-    width: 98.60761
+    width: 60
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -5697,7 +5699,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 935.066
     y: 156.78441
-    width: 108.7342
+    width: 70
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -5732,7 +5734,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 999.12317
     y: 240.45935
-    width: 125.949394
+    width: 86.92308
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -5774,7 +5776,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 872.3419
     y: 238.80386
-    width: 116.835464
+    width: 77.69231
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -9376,7 +9378,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 470.5471
     y: 411.77173
-    width: 151.26587
+    width: 117.692314
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -9403,7 +9405,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 153.78697
     y: 409.79547
-    width: 120.8861
+    width: 85.38462
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -9430,7 +9432,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 658.73346
     y: 410.41876
-    width: 128.98737
+    width: 94.61539
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -9457,7 +9459,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 319.1022
     y: 407.7064
-    width: 128.98737
+    width: 94.61539
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -10341,7 +10343,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 820.24194
     y: 412.10837
-    width: 132.02534
+    width: 97.692314
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -10623,6 +10625,36 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   itemId: 433
+  indentLevel: 0
+  display: 2
+  stage: {fileID: 0}
+  character: {fileID: 1633497120}
+  replacedCharacter: {fileID: 0}
+  portrait: {fileID: 0}
+  offset: 0
+  fromPosition: {fileID: 0}
+  toPosition: {fileID: 0}
+  facing: 0
+  useDefaultSettings: 1
+  fadeDuration: 50
+  moveDuration: 1
+  shiftOffset: {x: 0, y: 0}
+  move: 0
+  shiftIntoPlace: 0
+  waitUntilFinished: 0
+--- !u!114 &1550200545
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1550200243}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3ac5ce55bc698fa4290939ef6e426501, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 443
   indentLevel: 0
   display: 2
   stage: {fileID: 0}

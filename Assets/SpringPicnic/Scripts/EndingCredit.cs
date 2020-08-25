@@ -10,6 +10,10 @@ public class EndingCredit : MonoBehaviour
         if (this.transform.position.y >= -26f)
         {
             this.transform.position -= move;
+            if (Input.GetKey(KeyCode.Escape))
+            {
+                this.transform.position -= 3f*move;
+            }
         }
         else
         {

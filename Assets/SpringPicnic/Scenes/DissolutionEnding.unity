@@ -1370,6 +1370,7 @@ GameObject:
   - component: {fileID: 1785307474}
   - component: {fileID: 1785307473}
   - component: {fileID: 1785307477}
+  - component: {fileID: 1785307478}
   m_Layer: 0
   m_Name: Flowchart
   m_TagString: Untagged
@@ -1404,18 +1405,19 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   version: 1
-  scrollPos: {x: 98.20373, y: -52.071968}
+  scrollPos: {x: 79.583084, y: -55.92776}
   variablesScrollPos: {x: 0, y: 0}
   variablesExpanded: 1
   blockViewHeight: 200
-  zoom: 0.5500004
+  zoom: 0.5800004
   scrollViewRect:
     serializedVersion: 2
     x: 0
     y: 0
     width: 0
     height: 0
-  selectedBlocks: []
+  selectedBlocks:
+  - {fileID: 1785307366}
   selectedCommands: []
   variables: []
   description: 
@@ -1465,7 +1467,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 104.42688
     y: 171.26717
-    width: 87.09085
+    width: 87.241325
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -1696,9 +1698,7 @@ MonoBehaviour:
   itemId: 64
   indentLevel: 0
   storyText: "\uC720\uB9BC\uC774\uB294 \uB098\uB97C \uCC28\uBC84\uB9B0 \uAC83\uB9CC\uC73C\uB85C\uB294
-    \uBD84\uC774 \uCC28\uC9C0 \uC54A\uC558\uC744 \uAC83\uC774\uB2E4. \uADF8\uB7AC\uC73C\uB2C8
-    \uC6B0\uB9AC \uACFC\uC5D0 \uB098\uC5D0 \uB300\uD55C \uC18C\uBB38\uC744 \uB0B4
-    \uBC84\uB838\uB358 \uAC70\uACA0\uC9C0.\r"
+    \uBD84\uC774 \uCC28\uC9C0 \uC54A\uC558\uC744 \uAC83\uC774\uB2E4."
   description: 
   character: {fileID: 0}
   portrait: {fileID: 0}
@@ -1811,7 +1811,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 157.72688
     y: 346.59476
-    width: 63.81814
+    width: 66.55168
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -1826,6 +1826,7 @@ MonoBehaviour:
   - {fileID: 1785307375}
   - {fileID: 1785307372}
   - {fileID: 1785307373}
+  - {fileID: 1785307478}
   - {fileID: 1785307374}
   - {fileID: 1785307474}
   - {fileID: 1785307473}
@@ -1847,7 +1848,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 33.726883
     y: 345.6097
-    width: 62.363594
+    width: 65.17238
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -2265,7 +2266,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 27.33191
     y: 244.24048
-    width: 117.63628
+    width: 120.34475
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -4308,7 +4309,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 94.861786
     y: 433.89648
-    width: 84.18176
+    width: 81.72409
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -4506,6 +4507,34 @@ MonoBehaviour:
   move: 0
   shiftIntoPlace: 0
   waitUntilFinished: 0
+--- !u!114 &1785307478
+MonoBehaviour:
+  m_ObjectHideFlags: 2
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1785307362}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ec422cd568a9c4a31ad7c36d0572b9da, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 127
+  indentLevel: 0
+  storyText: "\uADF8\uB7AC\uC73C\uB2C8 \uC6B0\uB9AC \uACFC\uC5D0 \uB098\uC5D0 \uB300\uD55C
+    \uC18C\uBB38\uC744 \uB0B4 \uBC84\uB838\uB358 \uAC70\uACA0\uC9C0.\r"
+  description: 
+  character: {fileID: 0}
+  portrait: {fileID: 0}
+  voiceOverClip: {fileID: 0}
+  showAlways: 1
+  showCount: 1
+  extendPrevious: 0
+  fadeWhenDone: 1
+  waitForClick: 1
+  stopVoiceover: 1
+  waitForVO: 0
+  setSayDialog: {fileID: 196612953}
 --- !u!1 &1819341692
 GameObject:
   m_ObjectHideFlags: 0
