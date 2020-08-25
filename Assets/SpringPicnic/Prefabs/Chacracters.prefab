@@ -47,12 +47,16 @@ MonoBehaviour:
   nameColor: {r: 1, g: 1, b: 1, a: 1}
   soundEffect: {fileID: 0}
   portraits:
-  - {fileID: 21300000, guid: 187a40f3ca2f75043ac8d641fbee6abb, type: 3}
-  - {fileID: 21300000, guid: 981946371d2ecb145aa1042517aa7360, type: 3}
-  - {fileID: 21300000, guid: 5f238c5545090384b982fbd68b3cd470, type: 3}
-  - {fileID: 21300000, guid: 7a2752765c9356242a9f011824363dac, type: 3}
-  - {fileID: 21300000, guid: 2808dbdc5aad4dc438b6e4ef70c17c07, type: 3}
-  - {fileID: 21300000, guid: 6500dd5facf1faa4a8ca97a04e729906, type: 3}
+  - {fileID: 21300000, guid: a6deff6d59356094c8f774c1998495a6, type: 3}
+  - {fileID: 21300000, guid: 03bbb5052f8095347b2d28eed59c298c, type: 3}
+  - {fileID: 21300000, guid: 0a6f0138a40586443807174e4f37f0b5, type: 3}
+  - {fileID: 21300000, guid: 80ed34a169445934e829c8aa2d22da22, type: 3}
+  - {fileID: 21300000, guid: 0a435e688a08c93458885e59a24cf05a, type: 3}
+  - {fileID: 21300000, guid: c927ae53370216a4d8c64eb0d72cc459, type: 3}
+  - {fileID: 21300000, guid: 319b2a67480989a49b5c13185726d4ad, type: 3}
+  - {fileID: 21300000, guid: 9ee10627cb8112d41b676a96bcaf2c77, type: 3}
+  - {fileID: 21300000, guid: 0b27b7a554b3b484aa02ee928f299f03, type: 3}
+  - {fileID: 21300000, guid: 396c46cbb42f4df4da64112a10f9e09f, type: 3}
   portraitsFace: 0
   setSayDialog: {fileID: 0}
   description: 
@@ -194,11 +198,17 @@ MonoBehaviour:
   nameColor: {r: 1, g: 1, b: 1, a: 1}
   soundEffect: {fileID: 0}
   portraits:
-  - {fileID: 21300000, guid: 0e8376ec200202c43be5f5b9b38d5883, type: 3}
-  - {fileID: 21300000, guid: 7e8ec8c5ca2bdd244ab9e16c35f64d75, type: 3}
-  - {fileID: 21300000, guid: e711a6b132c209b45a9cf4f01eb8af62, type: 3}
-  - {fileID: 21300000, guid: 8382e6595a21f0941ac915745aa7bc6f, type: 3}
-  - {fileID: 21300000, guid: b0b5d17f829e0ed40aaa77b3c75905d5, type: 3}
+  - {fileID: 21300000, guid: 3592da1c1796f204f9d71f1c3b14cf0f, type: 3}
+  - {fileID: 21300000, guid: 11a25fc149ba030428f9ecde796910f6, type: 3}
+  - {fileID: 21300000, guid: dc4f69c924e910849950ab6d7838cb1e, type: 3}
+  - {fileID: 21300000, guid: b94371841e8ffeb47b981b3d61078d38, type: 3}
+  - {fileID: 21300000, guid: 4147b545f0d13dd449dacff2d32b5d58, type: 3}
+  - {fileID: 21300000, guid: 6d5460174da29e740824a73b8c0f109b, type: 3}
+  - {fileID: 21300000, guid: 60f05a2d6c0970740ae721de2f2de09d, type: 3}
+  - {fileID: 21300000, guid: ec202e228b9e05742a503698483ee705, type: 3}
+  - {fileID: 21300000, guid: fde7df24418cc6545a3a6e3ec723b51a, type: 3}
+  - {fileID: 21300000, guid: d517457c1daef0b41bdb236e5dd648a6, type: 3}
+  - {fileID: 21300000, guid: b85220220224c46408d97874323e625f, type: 3}
   portraitsFace: 0
   setSayDialog: {fileID: 0}
   description: 

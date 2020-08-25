@@ -1333,21 +1333,19 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   version: 1
-  scrollPos: {x: 16.391758, y: 1.3608236}
+  scrollPos: {x: -56.681293, y: 108.64411}
   variablesScrollPos: {x: 0, y: 0}
   variablesExpanded: 1
   blockViewHeight: 200
-  zoom: 0.97
+  zoom: 0.61000013
   scrollViewRect:
     serializedVersion: 2
     x: 0
     y: 0
     width: 0
     height: 0
-  selectedBlocks:
-  - {fileID: 1324640690}
-  selectedCommands:
-  - {fileID: 1324640711}
+  selectedBlocks: []
+  selectedCommands: []
   variables: []
   description: 
   stepPause: 0
@@ -1389,7 +1387,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 255.56705
     y: 129.93814
-    width: 125.051544
+    width: 83.442604
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -1525,7 +1523,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 278
     y: 44
-    width: 77.21649
+    width: 60
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -2446,7 +2444,7 @@ MonoBehaviour:
   storyText: "\uC18C\uC5F0\uC544.\r"
   description: 
   character: {fileID: 596385050}
-  portrait: {fileID: 0}
+  portrait: {fileID: 21300000, guid: 11a25fc149ba030428f9ecde796910f6, type: 3}
   voiceOverClip: {fileID: 0}
   showAlways: 1
   showCount: 1
@@ -2775,7 +2773,7 @@ MonoBehaviour:
   stage: {fileID: 0}
   character: {fileID: 596385048}
   replacedCharacter: {fileID: 596385050}
-  portrait: {fileID: 21300000, guid: 981946371d2ecb145aa1042517aa7360, type: 3}
+  portrait: {fileID: 21300000, guid: 319b2a67480989a49b5c13185726d4ad, type: 3}
   offset: 0
   fromPosition: {fileID: 0}
   toPosition: {fileID: 0}
@@ -2830,7 +2828,7 @@ MonoBehaviour:
   stage: {fileID: 0}
   character: {fileID: 596385048}
   replacedCharacter: {fileID: 0}
-  portrait: {fileID: 21300000, guid: 5f238c5545090384b982fbd68b3cd470, type: 3}
+  portrait: {fileID: 21300000, guid: c927ae53370216a4d8c64eb0d72cc459, type: 3}
   offset: 0
   fromPosition: {fileID: 0}
   toPosition: {fileID: 0}
@@ -2890,7 +2888,7 @@ MonoBehaviour:
   stage: {fileID: 0}
   character: {fileID: 596385048}
   replacedCharacter: {fileID: 596385050}
-  portrait: {fileID: 21300000, guid: 2808dbdc5aad4dc438b6e4ef70c17c07, type: 3}
+  portrait: {fileID: 21300000, guid: 0a435e688a08c93458885e59a24cf05a, type: 3}
   offset: 0
   fromPosition: {fileID: 0}
   toPosition: {fileID: 0}
@@ -2920,7 +2918,7 @@ MonoBehaviour:
   stage: {fileID: 0}
   character: {fileID: 596385050}
   replacedCharacter: {fileID: 0}
-  portrait: {fileID: 21300000, guid: b0b5d17f829e0ed40aaa77b3c75905d5, type: 3}
+  portrait: {fileID: 21300000, guid: 60f05a2d6c0970740ae721de2f2de09d, type: 3}
   offset: 0
   fromPosition: {fileID: 0}
   toPosition: {fileID: 0}
@@ -2950,7 +2948,7 @@ MonoBehaviour:
   stage: {fileID: 0}
   character: {fileID: 596385050}
   replacedCharacter: {fileID: 596385048}
-  portrait: {fileID: 21300000, guid: 8382e6595a21f0941ac915745aa7bc6f, type: 3}
+  portrait: {fileID: 21300000, guid: ec202e228b9e05742a503698483ee705, type: 3}
   offset: 0
   fromPosition: {fileID: 0}
   toPosition: {fileID: 0}
@@ -2980,7 +2978,7 @@ MonoBehaviour:
   stage: {fileID: 0}
   character: {fileID: 596385048}
   replacedCharacter: {fileID: 596385051}
-  portrait: {fileID: 21300000, guid: 5f238c5545090384b982fbd68b3cd470, type: 3}
+  portrait: {fileID: 21300000, guid: 0b27b7a554b3b484aa02ee928f299f03, type: 3}
   offset: 0
   fromPosition: {fileID: 0}
   toPosition: {fileID: 0}
@@ -3040,7 +3038,7 @@ MonoBehaviour:
   stage: {fileID: 0}
   character: {fileID: 596385048}
   replacedCharacter: {fileID: 0}
-  portrait: {fileID: 21300000, guid: 981946371d2ecb145aa1042517aa7360, type: 3}
+  portrait: {fileID: 21300000, guid: 319b2a67480989a49b5c13185726d4ad, type: 3}
   offset: 0
   fromPosition: {fileID: 0}
   toPosition: {fileID: 0}
@@ -3070,7 +3068,7 @@ MonoBehaviour:
   stage: {fileID: 0}
   character: {fileID: 596385048}
   replacedCharacter: {fileID: 596385050}
-  portrait: {fileID: 21300000, guid: 2808dbdc5aad4dc438b6e4ef70c17c07, type: 3}
+  portrait: {fileID: 21300000, guid: 03bbb5052f8095347b2d28eed59c298c, type: 3}
   offset: 0
   fromPosition: {fileID: 0}
   toPosition: {fileID: 0}
@@ -3100,7 +3098,7 @@ MonoBehaviour:
   stage: {fileID: 0}
   character: {fileID: 596385050}
   replacedCharacter: {fileID: 596385048}
-  portrait: {fileID: 21300000, guid: b0b5d17f829e0ed40aaa77b3c75905d5, type: 3}
+  portrait: {fileID: 21300000, guid: 3592da1c1796f204f9d71f1c3b14cf0f, type: 3}
   offset: 0
   fromPosition: {fileID: 0}
   toPosition: {fileID: 0}
@@ -3130,7 +3128,7 @@ MonoBehaviour:
   stage: {fileID: 0}
   character: {fileID: 596385048}
   replacedCharacter: {fileID: 596385047}
-  portrait: {fileID: 21300000, guid: 2808dbdc5aad4dc438b6e4ef70c17c07, type: 3}
+  portrait: {fileID: 21300000, guid: 396c46cbb42f4df4da64112a10f9e09f, type: 3}
   offset: 0
   fromPosition: {fileID: 0}
   toPosition: {fileID: 0}
@@ -3263,7 +3261,7 @@ MonoBehaviour:
   stage: {fileID: 0}
   character: {fileID: 596385048}
   replacedCharacter: {fileID: 0}
-  portrait: {fileID: 21300000, guid: 5f238c5545090384b982fbd68b3cd470, type: 3}
+  portrait: {fileID: 21300000, guid: 396c46cbb42f4df4da64112a10f9e09f, type: 3}
   offset: 0
   fromPosition: {fileID: 0}
   toPosition: {fileID: 0}
@@ -3323,7 +3321,7 @@ MonoBehaviour:
   stage: {fileID: 0}
   character: {fileID: 596385048}
   replacedCharacter: {fileID: 0}
-  portrait: {fileID: 21300000, guid: 981946371d2ecb145aa1042517aa7360, type: 3}
+  portrait: {fileID: 21300000, guid: 319b2a67480989a49b5c13185726d4ad, type: 3}
   offset: 0
   fromPosition: {fileID: 0}
   toPosition: {fileID: 0}
@@ -3383,7 +3381,7 @@ MonoBehaviour:
   stage: {fileID: 0}
   character: {fileID: 596385048}
   replacedCharacter: {fileID: 0}
-  portrait: {fileID: 21300000, guid: 5f238c5545090384b982fbd68b3cd470, type: 3}
+  portrait: {fileID: 21300000, guid: 396c46cbb42f4df4da64112a10f9e09f, type: 3}
   offset: 0
   fromPosition: {fileID: 0}
   toPosition: {fileID: 0}
@@ -3443,7 +3441,7 @@ MonoBehaviour:
   stage: {fileID: 0}
   character: {fileID: 596385048}
   replacedCharacter: {fileID: 0}
-  portrait: {fileID: 21300000, guid: 5f238c5545090384b982fbd68b3cd470, type: 3}
+  portrait: {fileID: 21300000, guid: 396c46cbb42f4df4da64112a10f9e09f, type: 3}
   offset: 0
   fromPosition: {fileID: 0}
   toPosition: {fileID: 0}
@@ -3503,7 +3501,7 @@ MonoBehaviour:
   stage: {fileID: 0}
   character: {fileID: 596385048}
   replacedCharacter: {fileID: 0}
-  portrait: {fileID: 21300000, guid: 7a2752765c9356242a9f011824363dac, type: 3}
+  portrait: {fileID: 21300000, guid: 319b2a67480989a49b5c13185726d4ad, type: 3}
   offset: 0
   fromPosition: {fileID: 0}
   toPosition: {fileID: 0}
@@ -3533,7 +3531,7 @@ MonoBehaviour:
   stage: {fileID: 0}
   character: {fileID: 596385048}
   replacedCharacter: {fileID: 0}
-  portrait: {fileID: 21300000, guid: 2808dbdc5aad4dc438b6e4ef70c17c07, type: 3}
+  portrait: {fileID: 21300000, guid: 03bbb5052f8095347b2d28eed59c298c, type: 3}
   offset: 0
   fromPosition: {fileID: 0}
   toPosition: {fileID: 0}
@@ -3563,7 +3561,7 @@ MonoBehaviour:
   stage: {fileID: 0}
   character: {fileID: 596385048}
   replacedCharacter: {fileID: 596385047}
-  portrait: {fileID: 21300000, guid: 6500dd5facf1faa4a8ca97a04e729906, type: 3}
+  portrait: {fileID: 21300000, guid: 9ee10627cb8112d41b676a96bcaf2c77, type: 3}
   offset: 0
   fromPosition: {fileID: 0}
   toPosition: {fileID: 0}
@@ -3623,7 +3621,7 @@ MonoBehaviour:
   stage: {fileID: 0}
   character: {fileID: 596385050}
   replacedCharacter: {fileID: 596385048}
-  portrait: {fileID: 21300000, guid: e711a6b132c209b45a9cf4f01eb8af62, type: 3}
+  portrait: {fileID: 21300000, guid: 60f05a2d6c0970740ae721de2f2de09d, type: 3}
   offset: 0
   fromPosition: {fileID: 0}
   toPosition: {fileID: 0}
@@ -3653,7 +3651,7 @@ MonoBehaviour:
   stage: {fileID: 0}
   character: {fileID: 596385048}
   replacedCharacter: {fileID: 596385050}
-  portrait: {fileID: 21300000, guid: 981946371d2ecb145aa1042517aa7360, type: 3}
+  portrait: {fileID: 21300000, guid: 0a6f0138a40586443807174e4f37f0b5, type: 3}
   offset: 0
   fromPosition: {fileID: 0}
   toPosition: {fileID: 0}
@@ -3683,7 +3681,7 @@ MonoBehaviour:
   stage: {fileID: 0}
   character: {fileID: 596385050}
   replacedCharacter: {fileID: 596385048}
-  portrait: {fileID: 21300000, guid: e711a6b132c209b45a9cf4f01eb8af62, type: 3}
+  portrait: {fileID: 21300000, guid: ec202e228b9e05742a503698483ee705, type: 3}
   offset: 0
   fromPosition: {fileID: 0}
   toPosition: {fileID: 0}
@@ -3713,7 +3711,7 @@ MonoBehaviour:
   stage: {fileID: 0}
   character: {fileID: 596385048}
   replacedCharacter: {fileID: 596385050}
-  portrait: {fileID: 21300000, guid: 5f238c5545090384b982fbd68b3cd470, type: 3}
+  portrait: {fileID: 21300000, guid: 396c46cbb42f4df4da64112a10f9e09f, type: 3}
   offset: 0
   fromPosition: {fileID: 0}
   toPosition: {fileID: 0}
@@ -3743,7 +3741,7 @@ MonoBehaviour:
   stage: {fileID: 0}
   character: {fileID: 596385050}
   replacedCharacter: {fileID: 596385048}
-  portrait: {fileID: 21300000, guid: b0b5d17f829e0ed40aaa77b3c75905d5, type: 3}
+  portrait: {fileID: 21300000, guid: 11a25fc149ba030428f9ecde796910f6, type: 3}
   offset: 0
   fromPosition: {fileID: 0}
   toPosition: {fileID: 0}
@@ -3773,7 +3771,7 @@ MonoBehaviour:
   stage: {fileID: 0}
   character: {fileID: 596385048}
   replacedCharacter: {fileID: 596385050}
-  portrait: {fileID: 21300000, guid: 981946371d2ecb145aa1042517aa7360, type: 3}
+  portrait: {fileID: 21300000, guid: 319b2a67480989a49b5c13185726d4ad, type: 3}
   offset: 0
   fromPosition: {fileID: 0}
   toPosition: {fileID: 0}
@@ -3803,7 +3801,7 @@ MonoBehaviour:
   stage: {fileID: 0}
   character: {fileID: 596385050}
   replacedCharacter: {fileID: 596385048}
-  portrait: {fileID: 21300000, guid: e711a6b132c209b45a9cf4f01eb8af62, type: 3}
+  portrait: {fileID: 21300000, guid: 60f05a2d6c0970740ae721de2f2de09d, type: 3}
   offset: 0
   fromPosition: {fileID: 0}
   toPosition: {fileID: 0}
@@ -3833,7 +3831,7 @@ MonoBehaviour:
   stage: {fileID: 0}
   character: {fileID: 596385048}
   replacedCharacter: {fileID: 596385050}
-  portrait: {fileID: 21300000, guid: 981946371d2ecb145aa1042517aa7360, type: 3}
+  portrait: {fileID: 21300000, guid: c927ae53370216a4d8c64eb0d72cc459, type: 3}
   offset: 0
   fromPosition: {fileID: 0}
   toPosition: {fileID: 0}
@@ -3863,7 +3861,7 @@ MonoBehaviour:
   stage: {fileID: 0}
   character: {fileID: 596385050}
   replacedCharacter: {fileID: 596385048}
-  portrait: {fileID: 21300000, guid: 7e8ec8c5ca2bdd244ab9e16c35f64d75, type: 3}
+  portrait: {fileID: 21300000, guid: 4147b545f0d13dd449dacff2d32b5d58, type: 3}
   offset: 0
   fromPosition: {fileID: 0}
   toPosition: {fileID: 0}
@@ -3893,7 +3891,7 @@ MonoBehaviour:
   stage: {fileID: 0}
   character: {fileID: 596385048}
   replacedCharacter: {fileID: 596385050}
-  portrait: {fileID: 21300000, guid: 5f238c5545090384b982fbd68b3cd470, type: 3}
+  portrait: {fileID: 21300000, guid: c927ae53370216a4d8c64eb0d72cc459, type: 3}
   offset: 0
   fromPosition: {fileID: 0}
   toPosition: {fileID: 0}
@@ -3923,7 +3921,7 @@ MonoBehaviour:
   stage: {fileID: 0}
   character: {fileID: 596385050}
   replacedCharacter: {fileID: 596385048}
-  portrait: {fileID: 21300000, guid: 7e8ec8c5ca2bdd244ab9e16c35f64d75, type: 3}
+  portrait: {fileID: 21300000, guid: b94371841e8ffeb47b981b3d61078d38, type: 3}
   offset: 0
   fromPosition: {fileID: 0}
   toPosition: {fileID: 0}
@@ -4079,7 +4077,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 266.08255
     y: 219.25772
-    width: 120.10309
+    width: 78.19671
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
